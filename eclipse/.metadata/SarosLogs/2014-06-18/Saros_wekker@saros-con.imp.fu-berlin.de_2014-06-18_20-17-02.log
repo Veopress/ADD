@@ -1,0 +1,96 @@
+INFO  2014-06-18 20:16:53,535 (Saros.java:256) Starting Saros 13.12.6 running:
+  Java Version: 1.8.0_05
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.9.100.v20131218-1515
+  Operating System: Windows 7 (6.1)
+  Hardware Architecture: amd64
+INFO  2014-06-18 20:16:53,596 (XMPPAccountStore.java:103) loaded 1 accounts
+INFO  2014-06-18 20:16:53,632 (PreferenceInitializer.java:53) initializing preference default values
+DEBUG 2014-06-18 20:16:53,637 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@3b95d13c, de.fu_berlin.inf.dpp.net.internal.IBBTransport@3730ab42]
+DEBUG 2014-06-18 20:16:53,658 (StreamServiceManager.java:225) StreamServices added:
+  SendFile
+  AudioService
+  VideoSharing
+DEBUG 2014-06-18 20:16:53,690 (SarosAnnotation.java:112) resetting annotation colors
+WARN  2014-06-18 20:16:53,933 (NullSarosSession.java:64) unexpected method call
+WARN  2014-06-18 20:16:53,935 (NullSarosSession.java:64) unexpected method call
+DEBUG 2014-06-18 20:16:55,289 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+WARN  2014-06-18 20:16:57,309 (NullSarosSession.java:64) unexpected method call
+WARN  2014-06-18 20:16:57,310 (NullSarosSession.java:64) unexpected method call
+DEBUG 2014-06-18 20:16:58,144 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2014-06-18 20:16:58,176 (DocumentRecord.java:93) Added Node: attr(140314061817352560) name=svg
+DEBUG 2014-06-18 20:16:58,710 (SarosNet.java:423) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2014-06-18 20:16:58,746 (SarosNet.java:433) found interface addresses: [192.168.1.91, fe80:0:0:0:155c:48dd:2c11:dd74%eth3]
+DEBUG 2014-06-18 20:16:58,772 (SarosNet.java:383)  new connection state == CONNECTING
+DEBUG 2014-06-18 20:16:58,981 (StunServiceImpl.java:173) discovered public WAN-IP: 99.101.76.202 through interface 192.168.1.91
+DEBUG 2014-06-18 20:17:01,911 (SarosNet.java:383) wekker@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2014-06-18 20:17:01,911 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@3b95d13c, de.fu_berlin.inf.dpp.net.internal.IBBTransport@3730ab42]
+DEBUG 2014-06-18 20:17:01,914 (SkypeManager.java:286) Refreshing Skype username cache...
+ERROR 2014-06-18 21:47:39,067 (SarosNet.java:95) XMPP connection error: 
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+ERROR 2014-06-18 21:47:39,072 (SarosNet.java:385)  new connection state == ERROR
+java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read1(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:316)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+DEBUG 2014-06-18 21:47:39,076 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+INFO  2014-06-18 22:51:13,020 (XMPPAccountStore.java:161) saved 1 accounts
+INFO  2014-06-18 22:51:22,144 (XMPPAccountStore.java:161) saved 1 accounts
+INFO  2014-06-18 22:51:31,889 (XMPPAccountStore.java:161) saved 1 accounts
+INFO  2014-06-18 22:52:08,497 (XMPPAccountStore.java:161) saved 2 accounts
+INFO  2014-06-18 22:52:17,256 (XMPPAccountStore.java:161) saved 2 accounts
+INFO  2014-06-18 22:52:22,572 (XMPPAccountStore.java:161) saved 1 accounts
+ERROR 2014-06-18 22:52:43,630 (CreateXMPPAccountWizard.java:139) conflict(409)
+conflict(409)
+	at org.jivesoftware.smack.AccountManager.createAccount(AccountManager.java:240)
+	at org.jivesoftware.smack.AccountManager.createAccount(AccountManager.java:203)
+	at de.fu_berlin.inf.dpp.net.util.RosterUtils.createAccount(RosterUtils.java:210)
+	at de.fu_berlin.inf.dpp.ui.wizards.CreateXMPPAccountWizard$1.run(CreateXMPPAccountWizard.java:126)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+INFO  2014-06-18 22:53:01,104 (XMPPAccountStore.java:161) saved 2 accounts
+INFO  2014-06-18 22:53:02,848 (XMPPAccountStore.java:161) saved 2 accounts
+INFO  2014-06-18 22:53:06,369 (XMPPAccountStore.java:161) saved 1 accounts
+WARN  2014-06-18 22:53:23,246 (NullSarosSession.java:64) unexpected method call
+WARN  2014-06-18 22:53:23,247 (NullSarosSession.java:64) unexpected method call
+DEBUG 2014-06-18 22:53:23,411 (UPnPServiceImpl.java:295) deleting existing port mappings

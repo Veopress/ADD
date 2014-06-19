@@ -1,0 +1,25 @@
+[23:37:11] [main/INFO]: Setting user: Player185
+[23:37:12] [Client thread/INFO]: LWJGL Version: 2.9.0
+[23:37:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:ADD Nether
+[23:37:15] [Sound Library Loader/INFO]: Sound engine started
+[23:37:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:37:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:37:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:ADD Nether
+[23:37:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:37:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:37:16] [Sound Library Loader/INFO]: Sound engine started
+[23:37:19] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[23:37:19] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[23:37:19] [Server thread/INFO]: Generating keypair
+[23:37:23] [Server thread/INFO]: Preparing start region for level 0
+[23:37:24] [Server thread/INFO]: Player185[local:E:f13e97d1] logged in with entity id 30 at (-188.7047693455634, 53.0, 564.1091365429272)
+[23:37:24] [Server thread/INFO]: Player185 joined the game
+[23:37:26] [Server thread/INFO]: Player185 has just earned the achievement [Taking Inventory]
+[23:37:26] [Client thread/INFO]: [CHAT] Player185 has just earned the achievement [Taking Inventory]
+[23:40:01] [Client thread/INFO]: Stopping!
+[23:40:01] [Server thread/INFO]: Stopping server
+[23:40:01] [Server thread/INFO]: Saving players
+[23:40:01] [Server thread/INFO]: Saving worlds
+[23:40:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:40:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:40:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End

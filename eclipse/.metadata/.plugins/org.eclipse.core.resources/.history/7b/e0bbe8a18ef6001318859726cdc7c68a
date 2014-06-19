@@ -1,0 +1,32 @@
+package com.add.nether;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+
+import com.add.nether.blocks.ADDBlocks;
+import com.add.nether.handlers.reference;
+import com.add.nether.items.ADDItems;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@Mod(modid = reference.MODID, version = reference.VERSION, name = reference.NAME)
+public class nether {
+	
+
+	
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event){
+		//-*-*-Blocks-*-*-\\
+		ADDBlocks.registerBlocks();
+		
+		//-*-*-Items-*-*-\\
+		ADDItems.registerADDItems();
+		
+		//-*-*-Recipes-*-*-\\
+		ADDRecipes.registerRecipes
+	}
+}

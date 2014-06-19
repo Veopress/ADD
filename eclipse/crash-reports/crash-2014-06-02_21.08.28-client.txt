@@ -1,0 +1,108 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 6/2/14 9:08 PM
+Description: Updating screen events
+
+java.lang.NullPointerException: Updating screen events
+	at net.minecraft.item.crafting.ShapelessRecipes.getCraftingResult(ShapelessRecipes.java:75)
+	at net.minecraft.item.crafting.CraftingManager.findMatchingRecipe(CraftingManager.java:331)
+	at net.minecraft.inventory.ContainerPlayer.onCraftMatrixChanged(ContainerPlayer.java:95)
+	at net.minecraft.inventory.InventoryCrafting.setInventorySlotContents(InventoryCrafting.java:134)
+	at net.minecraft.inventory.Slot.putStack(Slot.java:104)
+	at net.minecraft.inventory.Container.slotClick(Container.java:327)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.windowClick(PlayerControllerMP.java:482)
+	at net.minecraft.client.gui.inventory.GuiContainer.handleMouseClick(GuiContainer.java:677)
+	at net.minecraft.client.gui.inventory.GuiContainer.mouseMovedOrUp(GuiContainer.java:640)
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:349)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:303)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1685)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:994)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:910)
+	at net.minecraft.client.main.Main.main(Main.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.item.crafting.ShapelessRecipes.getCraftingResult(ShapelessRecipes.java:75)
+	at net.minecraft.item.crafting.CraftingManager.findMatchingRecipe(CraftingManager.java:331)
+	at net.minecraft.inventory.ContainerPlayer.onCraftMatrixChanged(ContainerPlayer.java:95)
+	at net.minecraft.inventory.InventoryCrafting.setInventorySlotContents(InventoryCrafting.java:134)
+	at net.minecraft.inventory.Slot.putStack(Slot.java:104)
+	at net.minecraft.inventory.Container.slotClick(Container.java:327)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.windowClick(PlayerControllerMP.java:482)
+	at net.minecraft.client.gui.inventory.GuiContainer.handleMouseClick(GuiContainer.java:677)
+	at net.minecraft.client.gui.inventory.GuiContainer.mouseMovedOrUp(GuiContainer.java:640)
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:349)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:303)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.inventory.GuiInventory
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player892'/5, l='MpServer', x=-174.92, y=54.62, z=571.79]]
+	Chunk stats: MultiplayerChunkCache: 286, 286
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-192,4,578), Chunk: (at 0,0,2 in -12,36; contains blocks -192,0,576 to -177,255,591), Region: (-1,1; contains chunks -32,32 to -1,63, blocks -512,0,512 to -1,255,1023)
+	Level time: 11106 game time, 11106 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 7 total; [EntityItem['item.item.porkchopRaw'/0, l='MpServer', x=-185.88, y=54.13, z=587.88], EntityItem['item.item.porkchopRaw'/1, l='MpServer', x=-183.81, y=54.13, z=585.88], EntityXPOrb['Experience Orb'/2, l='MpServer', x=-185.84, y=55.25, z=587.25], EntityXPOrb['Experience Orb'/3, l='MpServer', x=-185.84, y=55.25, z=587.25], EntityPig['Pig'/4, l='MpServer', x=-189.13, y=53.00, z=590.38], EntityPig['Pig'/6361, l='MpServer', x=-201.84, y=53.00, z=570.53], EntityClientPlayerMP['Player892'/5, l='MpServer', x=-174.92, y=54.62, z=571.79]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:412)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2521)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:932)
+	at net.minecraft.client.main.Main.main(Main.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.2
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_05, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 857933440 bytes (818 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 137 (7672 bytes; 0 MB) allocated, 2 (112 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.01-pre FML v7.2.156.1060 Minecraft Forge 10.12.1.1060 6 mods loaded, 6 mods active
+	mcp{8.09} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML{7.2.156.1060} [Forge Mod Loader] (forgeSrc-1.7.2-10.12.1.1060.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge{10.12.1.1060} [Minecraft Forge] (forgeSrc-1.7.2-10.12.1.1060.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	add_nether{0.01} [ADD Nether] (bin) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	examplemod{1.0} [examplemod] (bin) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	wekker_tutorial{1.0} [wekker_tutorial] (bin) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Launched Version: 1.6
+	LWJGL: 2.9.0
+	OpenGL: AMD Radeon HD 6700 Series  GL version 4.1.11005 Compatibility Profile Context, ATI Technologies Inc.
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 77 (4312 bytes; 0 MB) allocated, 23 (1288 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

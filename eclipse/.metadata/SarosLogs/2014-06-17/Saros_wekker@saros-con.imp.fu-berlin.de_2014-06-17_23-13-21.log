@@ -1,0 +1,33 @@
+INFO  2014-06-17 23:13:14,119 (Saros.java:256) Starting Saros 13.12.6 running:
+  Java Version: 1.8.0_05
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.9.100.v20131218-1515
+  Operating System: Windows 7 (6.1)
+  Hardware Architecture: amd64
+INFO  2014-06-17 23:13:14,140 (XMPPAccountStore.java:103) loaded 1 accounts
+INFO  2014-06-17 23:13:14,157 (PreferenceInitializer.java:53) initializing preference default values
+DEBUG 2014-06-17 23:13:14,162 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@70f31322, de.fu_berlin.inf.dpp.net.internal.IBBTransport@3f1ddac2]
+DEBUG 2014-06-17 23:13:14,183 (StreamServiceManager.java:225) StreamServices added:
+  SendFile
+  AudioService
+  VideoSharing
+DEBUG 2014-06-17 23:13:14,223 (SarosAnnotation.java:112) resetting annotation colors
+WARN  2014-06-17 23:13:14,386 (NullSarosSession.java:64) unexpected method call
+WARN  2014-06-17 23:13:14,390 (NullSarosSession.java:64) unexpected method call
+DEBUG 2014-06-17 23:13:15,842 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+WARN  2014-06-17 23:13:17,537 (NullSarosSession.java:64) unexpected method call
+WARN  2014-06-17 23:13:17,541 (NullSarosSession.java:64) unexpected method call
+DEBUG 2014-06-17 23:13:18,715 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2014-06-17 23:13:18,793 (DocumentRecord.java:93) Added Node: attr(140306479879084932) name=svg
+DEBUG 2014-06-17 23:13:19,043 (SarosNet.java:423) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2014-06-17 23:13:19,079 (SarosNet.java:433) found interface addresses: [192.168.1.91, fe80:0:0:0:155c:48dd:2c11:dd74%eth3]
+DEBUG 2014-06-17 23:13:19,084 (SarosNet.java:383)  new connection state == CONNECTING
+DEBUG 2014-06-17 23:13:19,328 (StunServiceImpl.java:173) discovered public WAN-IP: 99.101.76.202 through interface 192.168.1.91
+DEBUG 2014-06-17 23:13:21,383 (SarosNet.java:383) wekker@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2014-06-17 23:13:21,384 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@70f31322, de.fu_berlin.inf.dpp.net.internal.IBBTransport@3f1ddac2]
+DEBUG 2014-06-17 23:13:21,386 (SkypeManager.java:286) Refreshing Skype username cache...
+WARN  2014-06-17 23:13:34,278 (NullSarosSession.java:64) unexpected method call
+WARN  2014-06-17 23:13:34,281 (NullSarosSession.java:64) unexpected method call
+DEBUG 2014-06-17 23:13:34,401 (SarosNet.java:383) wekker@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+DEBUG 2014-06-17 23:13:34,557 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+DEBUG 2014-06-17 23:13:34,560 (UPnPServiceImpl.java:295) deleting existing port mappings

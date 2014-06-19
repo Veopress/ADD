@@ -1,0 +1,15 @@
+WARN  2014-06-02 20:14:09,740 (NullSarosSession.java:64) unexpected method call
+WARN  2014-06-02 20:14:09,741 (NullSarosSession.java:64) unexpected method call
+WARN  2014-06-02 20:14:12,908 (NullSarosSession.java:64) unexpected method call
+WARN  2014-06-02 20:14:12,913 (NullSarosSession.java:64) unexpected method call
+ERROR 2014-06-02 20:14:57,663 (SarosNet.java:385)  new connection state == ERROR
+SASL authentication DIGEST-MD5 failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.Saros$2.run(Saros.java:600)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2014-06-02 23:52:59,856 (NullSarosSession.java:64) unexpected method call
+WARN  2014-06-02 23:52:59,857 (NullSarosSession.java:64) unexpected method call
